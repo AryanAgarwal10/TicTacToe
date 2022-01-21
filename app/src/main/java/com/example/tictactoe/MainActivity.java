@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
                         finish();
                     }
                 })
-                .setIcon(android.R.drawable.sym_def_app_icon)
+                .setIcon(R.mipmap.ic_launcher_round)
                 .setCancelable(false)
                 .show();
     }
